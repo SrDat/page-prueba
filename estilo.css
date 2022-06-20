@@ -1,0 +1,295 @@
+* {
+    font-weight: 100;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #191A19;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 50px;
+}
+
+html {
+  background-image: url(/img/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@font-face {
+  font-family: Ancient Medium;
+  src: url(/fuente/Ancient\ Medium.ttf);
+}
+
+.container {
+  display: flex;
+  max-width: 1100px;
+  width: 100%;
+  margin: auto;
+}
+
+.container p {
+  width: 325px;
+}
+
+.container h2 {
+  width: 325px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #191A19;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+.logo h4{
+    color: #D8E9A8;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav_links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav_links li {
+    list-style: none;
+}
+
+.nav_links li:hover {
+  transform: scale(1.1);
+}
+
+.nav_links a {
+    color: #D8E9A8;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+/**===== BOTTON =====**/
+.bn632-hover {
+    width: 100px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:focus {
+    outline: none;
+  }
+  
+  .bn632-hover.bn22 {
+    background-image: linear-gradient(
+      to right,
+      #0ba360,
+      #3cba92,
+      #30dd8a,
+      #2bb673
+    );
+    box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+  }
+
+  /**===== BOTTON =====**/
+
+  .tals img{
+    background-size: cover;
+    width: 100%;
+  }
+
+    /**===== MENU =====**/
+  
+.home {
+  min-height: 100vh;
+  position: relative;
+}
+
+.home h2 { 
+  font-size: 3em;
+  text-align: center;
+  position: absolute;
+  top: 7%;
+  right: 10%;
+  left: 59%;
+  display: block;
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.home h2 {
+  background: linear-gradient(yellow,red);
+  -webkit-background-clip: text;
+  color: transparent;  
+}
+
+.home p {
+  color: whitesmoke;
+  position: absolute;
+  top: 25%;
+  right: 10%;
+  left: 60%;
+  font-size: 20px;
+  display: block;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main-logo img{
+  height: 550px;
+}
+
+.main-logo {
+  height: 600px;
+  position: absolute;
+  left: 10%;
+}
+  
+
+      /**===== MENU =====**/
+.container-2 {
+  display: flex;
+  width: 600px;
+  height: 300px;
+  margin: 0 0 0 5%;
+}
+
+.tit-info {
+  position: relative;
+  left: 10%;
+}
+
+.tit-info p{
+  color:#fff;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  top: 5%;
+}
+
+
+.tit-info h2{
+  color:#fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.container-img img {
+  display: flex;
+  position: absolute;
+  width: 400px;
+  left: 60%;
+  top: 110%;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+  width:100%;
+  padding:50px 0px;
+  background-color: #191A19;
+}
+
+.container_footer {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  max-width:1200px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+
+.box_footer {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.box_footer .logo img{
+  width: 350px;
+}
+
+.box_footer .terms{
+  max-width:350px;
+  margin-top: 20px;
+  font-weight: 500;
+  color: #7a7a7a;
+  font-size: 18px;
+}
+
+.box_footer h2 {
+  margin-bottom: 30px;
+  color: #7a7a7a;
+  font-weight: 700;
+}
+
+.box_footer a {
+  margin-top: 10px;
+  font-weight: 600;
+  color: #7a7a7a;
+}
+
+.box_footer a:hover {
+ opacity: 0.8;
+}
+
+.box_footer a .fab { 
+  font-size: 20px;
+}
+
+.box_copyright {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 40px;
+}
+
+.box_copyright p  {
+  margin-top: 20px;
+  color: #7a7a7a;
+}
+
+.box_copyright hr {
+  border: none;
+  height: 1px;
+  background-color: #7a7a7a;
+}
